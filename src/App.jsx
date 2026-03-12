@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Auth from "./pages/Auth";
 import Checkout from "./pages/Checkout";
 import AuthProvider from "./contexts/AuthContext";
+import
 
 function App() {
   return (
