@@ -1,6 +1,7 @@
 import { getProducts } from "../data/products";
 import Product from "../components/Product";
 
+
 const products = getProducts();
 
 export default function Home() {

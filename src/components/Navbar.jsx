@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -19,6 +19,7 @@ const Navbar = () => {
           <Link to="/auth" className="btn btn-primary">
             Login
           </Link>
+
           <Link to="/auth" className="btn btn-secondary">
             Register
           </Link>
@@ -29,4 +30,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
